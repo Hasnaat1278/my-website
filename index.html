@@ -1,13 +1,142 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Website</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <h1>Hello, world</h1>
-  <p>This is my GitHub Pages website.</p>
-</body>
-</html>
+<header class="header">
+    <div class="logo">Jane</div>
+    <div class="nav">
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</header>
+<main class="main">
+    <section class="hero" id="#hero">
+        
+        <h3>Hi, I'm Hasnaat Tanveer</h3>
+        <p>Computing Student</p>
+    </section>
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>
+            I’m a computing student at Queen’s University who enjoys building things that are both practical and easy to use.
+I’ve worked with Python and JavaScript across different projects, including some AI work, and I like figuring out how to turn ideas into something real.
+Lately, I’ve been getting more interested in artificial intelligence and cybersecurity, and I’m always looking to keep learning and improve through hands-on work.
+        </p>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2> Projects </h2>
+            <div class="projects-grid">
+
+              <div class="projects-card">
+                
+                <h3>Front End development for Rouge Valley</h3>
+                <p>I contributed to front-end development for Rouge Valley, a charity, using JavaScript and Node.js to help build and improve their website. 
+                  I focused on creating responsive, user-friendly components and making sure the interface was clean, accessible, and easy to navigate.</p>
+                <a href="#">Coming Soon</a>
+            </div>
+              
+            <div class=" primary-card projects-card">
+                
+                <h3>AI Emotion Detector</h3>
+                <h2> Coming soon</h2>
+                <p>
+                  I built a machine learning-based emotion detection system that analyzes facial expressions and maps them to 
+                  corresponding emotions, displaying the results visually. I worked on the data processing, model training, 
+                  and integrating the predictions into a simple user-facing interface.
+                </p>
+                <div class="tech-tag-list">
+                    <div>HTML</div>
+                    <div>CSS</div>
+                    <div>JavaScript</div>
+                    <div>API Integration</div>
+                    <div>Payment Gateway</div>
+                </div>
+            </div>
+            <div class="projects-card">
+                
+                <h3>ML Iris Data Analysis</h3>
+                <h2> Coming soon</h2>
+                <p>I worked on a machine learning project using the Iris dataset to classify different flower species based on their features. I handled data preprocessing, 
+                  explored patterns in the data, and trained models to make accurate predictions, focusing on understanding how different features impact classification.</p>
+                
+            </div>
+            <div class="projects-card">
+                
+                <h3>Multigame compliation</h3>
+                <p>I developed a multi-game compilation featuring several small games, focusing on gameplay mechanics, user interaction, and overall experience. 
+                  I implemented core features like player controls, scoring systems, and game logic, while making sure everything ran smoothly and felt engaging to play.</p>
+
+            </div>
+            <div class="projects-card">
+
+                <h3>GOPS simulator</h3>
+                <p>I wrote a script for the GOPS card game for a Computer Science Club event, using it to simulate gameplay and analyze different strategies. 
+                  I focused on implementing the game logic accurately and structuring the code so I could test outcomes and explore how different approaches affect performance.</p>
+
+            </div>
+            
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-form-container">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Your Name"
+                        />
+                </div>
+        
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="your@email.com"
+                        />
+                </div>
+                </div>
+        
+                <div class="form-group">
+                    <label for="reason">Contact Reason</label>
+                    <select id="reason" name="reason">
+                        <option value="work">Networking</option>
+                        <option value="work">Freelance</option>
+                        <option value="work">Collaboration</option>
+                        <option value="support">Mentorship</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
+                </div>
+        
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="4"
+                        placeholder="Enter your message here."
+                        style="height: 100px"
+                        ></textarea>
+                </div>
+        
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="footer-logos">
+        <a href="https://github.com/Hasnaat1278" target="_blank">
+            <img src="/images/learn-css/github-logo.png" alt="GitHub" />
+        </a>
+        <a href="https://www.linkedin.com/in/hasnaat-tanveer-072103218/" target="_blank">
+            <img src="/images/learn-css/linkedin-logo.png" alt="LinkedIn" />
+        </a>
+        <a href="mailto:example@gmail.com">
+            <img src="/images/learn-css/gmail-logo.png" alt="Gmail" />
+        </a>
+    </div>
+</footer>
